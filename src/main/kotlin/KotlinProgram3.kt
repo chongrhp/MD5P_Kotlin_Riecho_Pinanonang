@@ -9,7 +9,7 @@ fun main(){
     var name :String = readln()
     println("Hello $name!!")
 
-    //for Integer input
+    //for Integer input key
     println("Enter a number: ")
     var number : Int = readln().toInt()
     println("You have entered the number $number!")
