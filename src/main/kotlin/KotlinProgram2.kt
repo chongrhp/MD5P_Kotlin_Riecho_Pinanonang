@@ -6,6 +6,7 @@ fun main(){
     var skillLevel:Char = 'S'
     var isActive:Boolean = true
 
+    //display variable
     println("His salary is $salary")
     println("His skill level is $skillLevel")
     println("He is currently active $isActive")
