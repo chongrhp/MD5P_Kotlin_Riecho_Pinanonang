@@ -1,6 +1,8 @@
+import java.util.Date
 fun main(){
     //Personal Information
-    var position:String = "Mobile Developer"
+    var applyingPosition:String = "Mobile Developer"
+    var desiredSalary:Double = 10000.00
     var firstName:String = "Riecho"
     var lastName:String = "Pinanonang"
     var middleName:String = "Hernandez"
@@ -14,25 +16,34 @@ fun main(){
     var sssNumber:String = "123456780"
     var isUSCitizen:String = "No"
     var isConvictedFelony:String = "No"
+    var isPreEmploymentScreening:Boolean = false
 
-    println("First Name: $firstName")
-    println("Middle Name: $middleName")
-    println("Last Name: $lastName")
-    println("Address : $address")
-    println("City: $city")
-    println("State: $state")
-    println("Zip Code: $zipCode")
-    println("Home Phone: $homePhone")
-    println("Cell Phone: $cellPhone")
-    println("Email Address: $emailAddress")
+    println("Application for Employment")
+    println("You are Applying For: $applyingPosition        Desired Salary: $desiredSalary\n")
+
+    println("PERSONAL INFORMATION")
+    println("First Name: $firstName\t\t\t\t\tMiddle Name: $middleName\t\t\tLast Name: $lastName")
+    println("Address : $address\t\tCity: $city\t\t\t\tState: $state\t\t\tZip Code: $zipCode")
+    println("Home Phone: $homePhone\t\t\tCell Phone: $cellPhone\t\tEmail Address: $emailAddress")
     println("sssNumber: $sssNumber")
     println("Are you a U.S. Citizen?: $isUSCitizen")
     println("Have you ever been convicted of a felony?: $isConvictedFelony")
+    println("If selected for employment are you willing to submit to a pre-employment drug screening test? $isPreEmploymentScreening")
 
     //Education
     var schoolName:String = "NORSU"
     var schoolLocation:String = "Negros Oriental"
-    var yearsAttended:String = "2000"
+    var yearsAttended:Date = Date(2000,3,31)
+    println("\nEDUCATION")
+    println("School Name: $schoolName       Location: $schoolLocation   Years Attended: $yearsAttended")
 
+    //Employment
+    var employer:String = "LGU"
+    var workPhone:String = "035-228-2828"
+    var dateEmployed:Date = Date(2023,4,2)
+    var payRate:Double = 10000.00
+    var employerAddress:String = "Negros Oriental"
+    var position:String = "Administrative Assistant III"
+    var duties:String = "Administrative Functions"
 
 }
