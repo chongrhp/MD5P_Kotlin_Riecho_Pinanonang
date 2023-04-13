@@ -34,6 +34,7 @@ fun main(){
     var schoolName:String = "NORSU"
     var schoolLocation:String = "Negros Oriental"
     var yearsAttended:Date = Date(2000,3,31)
+
     println("\nEDUCATION")
     println("School Name: $schoolName       Location: $schoolLocation   Years Attended: $yearsAttended")
 
@@ -42,8 +43,24 @@ fun main(){
     var workPhone:String = "035-228-2828"
     var dateEmployed:Date = Date(2023,4,2)
     var payRate:Double = 10000.00
-    var employerAddress:String = "Negros Oriental"
+    var employerAddress:String = "Cab-cabon, Banga"
+    var employerCityAddress:String = "Bayawan City"
+    var employerState:String = "Negros Oreintal"
+    var employerZip:String = "6221"
     var position:String = "Administrative Assistant III"
-    var duties:String = "Administrative Functions"
+    var dutiesPerformed:String = "Administrative Functions"
+    var supervisorName:String = "Rona O. Laurente"
+    var reasonForLeaving:String = "Greener Pasture"
+    var mayWeContactThem:Boolean = true
 
+    println("\nEMPLOYMENT")
+    println("Employer: $employer\t\t\t\tDates Employed: $dateEmployed")
+    println("Work Phone: $workPhone\t\t\tPay Rate: $$payRate")
+    println("Address: $employerAddress")
+    println("City: $employerCityAddress\t\t\tState:$employerState\t\tZip:$employerZip")
+    println("Position: $position")
+    println("Duties Performed: $dutiesPerformed")
+    println("Supervisors Name and Title: $supervisorName")
+    println("Reason for leaving: $reasonForLeaving")
+    println("May we contact them? $mayWeContactThem")
 }
