@@ -8,7 +8,7 @@ fun main(){
     var gradeStatus:String = ""
 
     //Input variables
-    print("Enter name: ")
+    print("\nEnter name: ")
     studentName = readln()
     print("Enter grade in Physics: ")
     gradeInPhysics = readln().toInt()
@@ -27,6 +27,6 @@ fun main(){
     else { gradeStatus = "Failure"}
 
     //Display output
-    println("$studentName, average grade is ${String.format("%,.2f",averageGrade)} \n$gradeStatus")
+    println("\n$studentName, average grade is ${String.format("%,.2f",averageGrade)} \n$gradeStatus")
 
 }

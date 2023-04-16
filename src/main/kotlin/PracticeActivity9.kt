@@ -4,7 +4,7 @@ fun main(){
     var dayOfTheWeek:String = ""
 
     //Input variables
-    print("Enter a number between 1 and 7: ")
+    print("\nEnter a number between 1 and 7: ")
     inputNumber = readln().toInt()
 
     //Process the input value

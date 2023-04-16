@@ -8,7 +8,7 @@ fun main(){
     var totalFare:Double = 0.0
 
     //Input variables
-    print("Enter fare: ")
+    print("\nEnter fare: ")
     fare = readln().toInt()
     print("Passenger type[O,S,C]: ")
     fareCode = readln()!!.first()
@@ -22,7 +22,7 @@ fun main(){
         'C' -> {discount = fare * 0.10}
         else -> {discount = 0.0}
     }
-    println("Discount fare is ${String.format("%,.2f",discount)}")
+    println("\nDiscount fare is ${String.format("%,.2f",discount)}")
 
     //check argument and display additional business class travel fare
     if(inBusinessType == 'Y' || inBusinessType == 'y'){

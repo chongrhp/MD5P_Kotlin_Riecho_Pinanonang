@@ -3,7 +3,7 @@ fun main(){
     var inputNumber:Int = 0
 
     //Input variable
-    print("Enter a number: ")
+    print("\nEnter a number: ")
     inputNumber = readln().toInt()
 
     //Process and display output

@@ -9,11 +9,11 @@ fun main(){
     var installment3:Double = 0.0
 
     //Input variables
-    print("Enter name of student: ")
+    print("\nEnter name of student: ")
     nameOfStudent = readln()
     print("Enter number of units enrolled: ")
     unitsEnrolled = readln().toInt()
-    print("Enter price per unit:")
+    print("Enter price per unit: ")
     pricePerUnit = readln().toDouble()
 
     //Process values
@@ -23,7 +23,7 @@ fun main(){
     installment3 = computedTuitionFee + (computedTuitionFee * 0.1)
 
     //Display output value
-    println("$nameOfStudent, you could avail the following payment mode:")
+    println("\n$nameOfStudent, you could avail the following payment mode:")
     println("Computed tuition fee: $${String.format("%,.2f",computedTuitionFee)}")
     println("Payment mode: $${String.format("%,.2f",cashPayment)}")
     println("Cash Payment: $${String.format("%,.2f",installment2)}")

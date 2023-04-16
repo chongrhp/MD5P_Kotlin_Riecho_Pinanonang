@@ -3,7 +3,7 @@ fun main(){
     var examScore:Int = 0
 
     //Input variable
-    print("Enter your exam score (out of 100): ")
+    print("\nEnter your exam score (out of 100): ")
     examScore = readln().toInt()
 
     if(examScore >= 90) {println("Your grade is A")}

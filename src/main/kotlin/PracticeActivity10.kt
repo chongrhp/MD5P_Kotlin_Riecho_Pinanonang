@@ -7,7 +7,7 @@ fun main(){
     var netPrice:Double = 0.0
 
     //Input variables
-    print("Enter product: ")
+    print("\nEnter product: ")
     productName = readln()
     print("Enter price: ")
     productPrice = readln().toDouble()
@@ -22,7 +22,7 @@ fun main(){
     //Get the value of discounted price
     netPrice = productPrice - discountPrice
 
-    println("Price of $productName is $productPrice")
+    println("\nPrice of $productName is $productPrice")
     println("Discount is ${String.format("%,.2f",discountPrice)}")
     println("Net Price is ${String.format("%,.2f",netPrice)}")
 }
