@@ -6,7 +6,7 @@ fun main(){
     var age:Int = 0
 
     //Input variables
-    print("What is your name? ")
+    print("\nWhat is your name? ")
     name = readln()
     print("Enter current year: ")
     currentYear = readln().toInt()
@@ -17,5 +17,5 @@ fun main(){
     age = currentYear - birthYear
 
     //Display output
-    println("$name, your age on $currentYear is $age")
+    println("\n$name, your age on $currentYear is $age")
 }

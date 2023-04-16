@@ -16,7 +16,7 @@ fun main(){
     areaOfRectangle = length * width
 
     //output value
-    println("The perimeter of rectangle ((length + width) x 2) is %.2f ".format(perimeterOfRectangle))
+    println("\nThe perimeter of rectangle ((length + width) x 2) is %.2f ".format(perimeterOfRectangle))
     println("The perimeter of rectangle ((length + width) x 2) is %.2f ".format(perimeterOfRectangle))
     println("The area of rectangle (length x width) is  %.2f".format(areaOfRectangle))
     //https://www.tutorialspoint.com/kotlin-program-to-round-a-number-to-n-decimal-places
