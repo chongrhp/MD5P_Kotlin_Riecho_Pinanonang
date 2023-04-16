@@ -15,7 +15,7 @@ fun main() {
     var b:Int = 1
     var c:Int = 0
 
-    c = ((a*2) + (2*a*b)) - (4 *(b+a))/2
+    c = ((a*2) + (2*a*b) -(4 * (b+a)))/2
     println("Output value of c is $c")
 
 }
