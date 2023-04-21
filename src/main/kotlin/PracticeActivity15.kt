@@ -3,6 +3,8 @@ fun main(){
     var number1:Int = 0
     var number2:Int = 0
     var number3:Int = 0
+    var leftNum:Int = 0
+    var rightNum:Int = 0
 
     //Input variables
     print("\nEnter number 1: ")
@@ -12,8 +14,14 @@ fun main(){
     print("Enter number 3: ")
     number3 = readln().toInt()
 
+    //process values
+    leftNum = (number1 * number1) + (number2 * number2)
+    rightNum = number3 * number3
+
     //Check arguments and display output
-    if(((number1 * number1) + (number2 * number2)) == (number3 * number3)) {
+    if( leftNum == rightNum) {
         println("\nThese numbers form a Pythagorean triple")
-    } else {println("These numbers do not form a Pythagorean triple")}
+    } else {
+        println("These numbers do not form a Pythagorean triple")
+    }
 }

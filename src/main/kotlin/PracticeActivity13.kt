@@ -11,12 +11,19 @@ fun main(){
     print("Enter your height(in meters): ")
     inHeight = readln().toDouble()
 
-    //Process BMI and get the status
+    //Process formula
     yourBMI = inWeight /(inHeight * inHeight)
-    if (yourBMI >= 30){bmiStatus = "obese"}
-    else if(yourBMI >= 25 && yourBMI <= 29.9) { bmiStatus = "over"}
-    else if(yourBMI >= 18.5 && yourBMI <= 24.9) {bmiStatus = "normal"}
-    else {bmiStatus = "under"}
+
+    //Get the status of BMI value
+    if (yourBMI >= 30){
+        bmiStatus = "obese"
+    } else if(yourBMI >= 25 && yourBMI <= 29.9) {
+        bmiStatus = "over"
+    } else if(yourBMI >= 18.5 && yourBMI <= 24.9) {
+        bmiStatus = "normal"
+    } else {
+        bmiStatus = "under"
+    }
 
     //Display output
     println("Your BMI is ${String.format("%.2f",yourBMI)} which is in the $bmiStatus weight range")

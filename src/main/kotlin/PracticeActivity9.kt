@@ -9,14 +9,23 @@ fun main(){
 
     //Process the input value
     when (inputNumber){
-        1 -> { dayOfTheWeek = "Monday" }
-        2 -> { dayOfTheWeek = "Tuesday" }
-        3 -> { dayOfTheWeek = "Wednesday" }
-        4 -> { dayOfTheWeek = "Thursday" }
-        5 -> { dayOfTheWeek = "Friday" }
-        6 -> { dayOfTheWeek = "Saturday" }
-        7 -> { dayOfTheWeek = "Sunday" }
-        else -> { dayOfTheWeek = "error"}
+        1 -> {
+            dayOfTheWeek = "Monday"
+        } 2 -> {
+            dayOfTheWeek = "Tuesday"
+        } 3 -> {
+            dayOfTheWeek = "Wednesday"
+        } 4 -> {
+            dayOfTheWeek = "Thursday"
+        } 5 -> {
+            dayOfTheWeek = "Friday"
+        } 6 -> {
+            dayOfTheWeek = "Saturday"
+        } 7 -> {
+            dayOfTheWeek = "Sunday"
+        } else -> {
+            dayOfTheWeek = "error"
+        }
     }
 
     //Display the output processed value

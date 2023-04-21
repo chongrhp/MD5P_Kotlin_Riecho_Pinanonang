@@ -19,12 +19,25 @@ fun main(){
 
     //process and check argument for student awardees
     averageGrade = (gradeInPhysics.toDouble() + gradeInAlgebra.toDouble() + gradeInProgramming.toDouble())/3
-    if (averageGrade > 100){ gradeStatus = "Invalid grade"}
-    else if (averageGrade >= 95) { gradeStatus = "President lister"}
-    else if (averageGrade >= 89){ gradeStatus = "Dean lister"}
-    else if (averageGrade >= 83){ gradeStatus = "Average Student"}
-    else if (averageGrade >= 78){ gradeStatus = "Fair"}
-    else { gradeStatus = "Failure"}
+
+    if (averageGrade > 100){
+        gradeStatus = "Invalid grade"
+    }
+    else if (averageGrade >= 95) {
+        gradeStatus = "President lister"
+    }
+    else if (averageGrade >= 89){
+        gradeStatus = "Dean lister"
+    }
+    else if (averageGrade >= 83){
+        gradeStatus = "Average Student"
+    }
+    else if (averageGrade >= 78){
+        gradeStatus = "Fair"
+    }
+    else {
+        gradeStatus = "Failure"
+    }
 
     //Display output
     println("\n$studentName, average grade is ${String.format("%,.2f",averageGrade)} \n$gradeStatus")
