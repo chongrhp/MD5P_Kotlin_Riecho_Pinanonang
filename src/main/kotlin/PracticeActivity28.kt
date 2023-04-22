@@ -11,22 +11,25 @@ fun main(){
         print("Choose option [a,b or c]: ")
         option = readln().first()
 
-        if(option == 'a') {
+        when(option){
+            'a' -> {
 
-            println("\nCelsius - Fahrenheit Conversion")
-            print("Enter Celsius: ")
-            celsius = readln().toDouble()
+                println("\nCelsius - Fahrenheit Conversion")
+                print("Enter Celsius: ")
+                celsius = readln().toDouble()
 
-            fahrenheit = ((9.0 / 5.0) * celsius) + 32.0
-            println("Fahrenheit equivalent is ${String.format("%.2f", fahrenheit)}")
-        } else if (option == 'b'){
+                fahrenheit = ((9.0 / 5.0) * celsius) + 32.0
+                println("Fahrenheit equivalent is ${String.format("%.2f", fahrenheit)}")
+            }
+            'b' -> {
 
-            println("\nFahrenheit - Celsius Conversion")
-            print("Enter fahrenheit: ")
-            fahrenheit = readln().toDouble()
+                println("\nFahrenheit - Celsius Conversion")
+                print("Enter fahrenheit: ")
+                fahrenheit = readln().toDouble()
 
-            celsius = (fahrenheit - 32.0) * (5.0/9.0);
-            println("Celsius equivalent is ${String.format("%.2f", celsius)}")
+                celsius = (fahrenheit - 32.0) * (5.0/9.0);
+                println("Celsius equivalent is ${String.format("%.2f", celsius)}")
+            }
         }
 
     } while(option != 'c')

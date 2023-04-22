@@ -12,12 +12,17 @@ fun main(){
         topNames[name] = sale
     }
 
+
     println("\nTop SportsMan")
     println("Name\t\t\tSales")
     println("===========================")
 
+    var totalSales:Double = 0.0
     for((names, sales) in topNames){
-        println("$names\t\t\t$sales")
+        println("$names\t\t\t$${String.format("%,.2f",sales)}")
+        totalSales+= sales
     }
+    println("===========================")
+    println("Total\t\t\t$${String.format("%,.2f",totalSales)}")
 }
 

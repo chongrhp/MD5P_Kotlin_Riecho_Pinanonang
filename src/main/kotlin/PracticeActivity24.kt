@@ -1,17 +1,20 @@
 fun main(){
-    var number = arrayOf<Int>(2,4,6,8,10)
-    var square = arrayOf<Int>(4,16,36,64,100,220)
-    var cube = arrayOf<Int>(8,64,216,512,1000)
+    var number:Int = 0
+    var square:Int = 0
+    var cube:Int = 0
     var totalSquare:Int = 0
     var totalCube:Int = 0
 
     var ctr:Int = 0
     println("\nNumber\t\tSquare\t\tCube")
-    while(ctr < number.size){
-        println("${number[ctr]}\t\t\t${square[ctr]}\t\t\t${cube[ctr]}")
+    for (counter in 1..5){
+        number = counter * 2
+        square = number * number
+        cube = number * number * number
+        println("${number}\t\t\t${square}\t\t\t${cube}")
 
-        totalSquare+=square[ctr]
-        totalCube+=cube[ctr]
+        totalSquare+=square
+        totalCube+=cube
         ctr++
     }
     println("Total\t\t$totalSquare\t\t\t$totalCube")

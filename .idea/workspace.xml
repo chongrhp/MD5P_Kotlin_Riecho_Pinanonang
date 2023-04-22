@@ -5,48 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbfd3ca-e93c-49de-ae2e-a76ba563f1e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram21.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram22.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram23.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram24.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram25.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram26.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity23.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity24.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity25.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity26.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity27.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity28.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity29.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity30.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity31.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity32.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinActivity01-A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/KotlinActivity01-A.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinActivity01-B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/KotlinActivity01-B.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinActivity01-C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/KotlinActivity01-C.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity10.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity10.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity11.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity11.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity12.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity12.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity13.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity13.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity14.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity15.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity15.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity16.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity16.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity17.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity17.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity18.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity18.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity19.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity19.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity20.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity20.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity21.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity21.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity22.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity22.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity4.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity4.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity5.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity6.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity6.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity7.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity7.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity8.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity8.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity9.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/practiceactivities/PracticeActivity9.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity24.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity24.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity26.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity26.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity28.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity28.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity32.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity32.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,21 +25,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/KodeGo/Projects/untitled/src/main/kotlin/practiceactivities",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/KodeGo/Projects/untitled/src/main/kotlin/practiceactivities&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\KodeGo\Projects\untitled\src\main\kotlin\practiceactivities" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PracticeActivity25Kt">
+  <component name="RunManager" selected="Kotlin.PracticeActivity28Kt">
+    <configuration name="PracticeActivity24Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeActivity24Kt" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PracticeActivity25Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticeActivity25Kt" />
       <module name="untitled" />
@@ -84,22 +54,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeActivity29Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeActivity29Kt" />
+    <configuration name="PracticeActivity26Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeActivity26Kt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeActivity30Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeActivity30Kt" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PracticeActivity31Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeActivity31Kt" />
+    <configuration name="PracticeActivity28Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeActivity28Kt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.PracticeActivity28Kt" />
         <item itemvalue="Kotlin.PracticeActivity25Kt" />
+        <item itemvalue="Kotlin.PracticeActivity26Kt" />
+        <item itemvalue="Kotlin.PracticeActivity24Kt" />
         <item itemvalue="Kotlin.PracticeActivity32Kt" />
-        <item itemvalue="Kotlin.PracticeActivity31Kt" />
-        <item itemvalue="Kotlin.PracticeActivity30Kt" />
-        <item itemvalue="Kotlin.PracticeActivity29Kt" />
       </list>
     </recent_temporary>
   </component>
