@@ -11,7 +11,7 @@ fun main(){
 
         topNames[name] = sale
     }
-
+    topNames = topNames.toSortedMap()
 
     println("\nTop SportsMan")
     println("Name\t\t\tSales")

@@ -1,9 +1,11 @@
 fun main(){
+
+    //Declare variables
     var option:Char = 'a'
     var fahrenheit:Double = 0.0
     var celsius:Double = 0.0
 
-    do {
+    do {//Display menu and input options
         println("\nMain Menu")
         println("a. Celsius to Fahrenheit")
         println("b.Fahrenheit to Celsius")
@@ -11,7 +13,7 @@ fun main(){
         print("Choose option [a,b or c]: ")
         option = readln().first()
 
-        when(option){
+        when(option){//case options is available
             'a' -> {
 
                 println("\nCelsius - Fahrenheit Conversion")
@@ -32,6 +34,7 @@ fun main(){
             }
         }
 
+    //check condition if exit
     } while(option != 'c')
 
 }
