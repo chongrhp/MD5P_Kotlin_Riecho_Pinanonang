@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbfd3ca-e93c-49de-ae2e-a76ba563f1e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram292DimensionalList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity35.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity25.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity25.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity26.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity26.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity27.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity27.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity30.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity30.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity34.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity34.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity35-2DList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity35-2DList.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +39,9 @@
       <recent name="E:\KodeGo\Projects\untitled\src\main\kotlin\practiceactivities" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.PracticeActivity35Kt">
-    <configuration name="KotlinProgram292DimensionalListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgram292DimensionalListKt" />
+  <component name="RunManager" selected="Kotlin.PracticeActivity35_2DListKt">
+    <configuration name="KotlinProgram29_2DimensionalListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KotlinProgram29_2DimensionalListKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeActivity35Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeActivity35Kt" />
+    <configuration name="PracticeActivity35_2DListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticeActivity35_2DListKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.PracticeActivity35Kt" />
-        <item itemvalue="Kotlin.KotlinProgram292DimensionalListKt" />
+        <item itemvalue="Kotlin.PracticeActivity35_2DListKt" />
+        <item itemvalue="Kotlin.KotlinProgram29_2DimensionalListKt" />
         <item itemvalue="Kotlin.SampleKt" />
         <item itemvalue="Kotlin.PracticeActivity34Kt" />
         <item itemvalue="Kotlin.PracticeActivity30Kt" />
