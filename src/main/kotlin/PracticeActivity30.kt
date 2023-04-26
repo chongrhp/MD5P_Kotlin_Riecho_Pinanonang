@@ -1,10 +1,11 @@
 fun main(){
     //Declare variables
-    var names = mapOf("Alice" to "555-1234","Boboy" to "555-5678","Charlie" to "555-9101")
+    var names = mapOf("Klice" to "555-1234","Boboy" to "555-5678","Charlie" to "555-9101")
     var name:String = "Alice"
 
     //Display header and elements
     println("\nName\t\t\tPhone number")
+    names = names.toSortedMap()
     for((id, element) in names){
         println("$id\t\t\t$element")
     }

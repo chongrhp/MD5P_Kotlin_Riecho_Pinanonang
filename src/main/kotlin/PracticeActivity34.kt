@@ -2,19 +2,14 @@ fun main(){
 
     //Input string value
     print("\nEnter string: ")
-    val vowels = readln()
-
-    //declare variables
-    var ctr:Int = 0
+    val statement = readln()
+    val vowels = setOf('a','e','i','o','u','A','E','I','O','U')
     var countVowels:Int = 0
 
-    //process vowels counter
-    while (ctr < vowels.length){
-        if (vowels[ctr] == 'a' || vowels[ctr] == 'e' || vowels[ctr] == 'i' || vowels[ctr] == 'o' || vowels[ctr] == 'u'){
+    for (char in statement){
+            if(char in vowels){
             countVowels++
         }
-
-        ctr++ //update
     }
 
     //display output counted vowels

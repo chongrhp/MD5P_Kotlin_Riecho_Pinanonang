@@ -10,7 +10,7 @@ fun main(){
         columns = number
         for(columnCount in 1..rowsAndColumns){
             print("${columns}\t")
-            columns -=rowsAndColumns
+            columns -= rowsAndColumns
         }
         println()
         number-- //update number

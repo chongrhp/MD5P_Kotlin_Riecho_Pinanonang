@@ -17,9 +17,9 @@ fun main(){
 
                 //Process and check if dollar sign is display
                 if (ctr2 < baseSize - (ctr+1)) {
-                    dollar = " "
+                    dollar = "  "
                 } else {
-                    dollar = "$"
+                    dollar = " $"
                 }
                 print(dollar)
             ctr2++
