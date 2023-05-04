@@ -5,51 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbfd3ca-e93c-49de-ae2e-a76ba563f1e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/ch_qos_logback_classic.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/io_github_microutils_kotlin_logging_jvm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Challenge1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram30.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram31-FunctionCall.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram32-FunctionCallWithReturn.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram33-FunctionWithPassingVariable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram34-FunctionWithPassingVariables.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram35-CatchSingle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram36-CatchMultiple.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram37-CatchFinally.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram38.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram39.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram40-FunctionVarArgs.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram41-Lamda.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram42-Infix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram43.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity36.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity37.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity38.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity39.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity40.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity41.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity42.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity43.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity44.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity45.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity46.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity47.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity48.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity49.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity50.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity51.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity52.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity53.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity54.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sample/Sample.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/sample1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram44.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram45.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram46.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram22-ListOf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram22-ListOf.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram24-SetOf.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/KotlinProgram24-SetOf.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity29.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity29.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity35-2DList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/PracticeActivity35-2DList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,30 +46,30 @@
       <recent name="E:\KodeGo\Projects\untitled\src\main\kotlin\practiceactivities" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.KotlinProgram43Kt">
-    <configuration name="KotlinProgram43Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KotlinProgram43Kt" />
+  <component name="RunManager" selected="Kotlin.KotlinProgram46Kt">
+    <configuration name="KotlinProgram43_HigherOrderFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KotlinProgram43_HigherOrderFunctionKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeActivity49Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeActivity49Kt" />
+    <configuration name="KotlinProgram44Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KotlinProgram44Kt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeActivity50Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeActivity50Kt" />
+    <configuration name="KotlinProgram45Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KotlinProgram45Kt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeActivity51Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PracticeActivity51Kt" />
+    <configuration name="KotlinProgram46Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="KotlinProgram46Kt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.KotlinProgram43Kt" />
+        <item itemvalue="Kotlin.KotlinProgram46Kt" />
+        <item itemvalue="Kotlin.KotlinProgram45Kt" />
+        <item itemvalue="Kotlin.KotlinProgram44Kt" />
+        <item itemvalue="Kotlin.KotlinProgram43_HigherOrderFunctionKt" />
         <item itemvalue="Kotlin.PracticeActivity52Kt" />
-        <item itemvalue="Kotlin.PracticeActivity51Kt" />
-        <item itemvalue="Kotlin.PracticeActivity50Kt" />
-        <item itemvalue="Kotlin.PracticeActivity49Kt" />
       </list>
     </recent_temporary>
   </component>
