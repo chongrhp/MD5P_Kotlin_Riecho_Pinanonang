@@ -14,6 +14,7 @@ fun main(){
     var number2 = mutableSetOf<Int>(1,3,5,7,9)
     number2.add(6)
     number2.remove(3)
+    number2.add(1)
 
     var ctr2:Int = 0
     while(ctr2 < number2.size){

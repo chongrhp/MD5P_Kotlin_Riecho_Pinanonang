@@ -1,38 +1,31 @@
 fun main(){
     val matrix =  mutableListOf(
         mutableListOf<Int>()
-        )
+    )
 
-    var row = 0
-    var column = 0
-    var number = 0
-    var matrixRowsColumns = 3
+    var number = 1
+    var squareSize = 3
 
-    //Input matrix and values
-    while(row < matrixRowsColumns){
-        while(column < matrixRowsColumns) {
-            print("Enter Number ${number + 1}: ")
-            matrix[row].add(readln().toInt())
-            column++
+    //display perfect square
+    for (rows in 0 ..(squareSize-1)){
+        for (cols in 0 .. (squareSize-1)){
+
+            print("Enter Number ${number}: ")
+            matrix[rows].add(readln().toInt())
             number++
         }
 
-        //Update controls and add new row of list
-        column = 0
-        row++
-        matrix.add(mutableListOf<Int>())
+        //add mutable list of matrix if size is less than squaresize
+        if(matrix.size < squareSize) {
+            matrix.add(mutableListOf<Int>())
+        }
     }
 
-    //Display output
-    row = 0
-    while(row < matrix.size){
-        column = 0
-        while(column < matrix[row].size){
-            print("${matrix[row][column]} \t")
-            column++
+    for (rows in 0..(matrix.size-1)){
+        for (cols in 0.. (matrix[rows].size-1)){
+            print("${matrix[rows][cols]}\t")
         }
         println()
-        row++
     }
 
 }

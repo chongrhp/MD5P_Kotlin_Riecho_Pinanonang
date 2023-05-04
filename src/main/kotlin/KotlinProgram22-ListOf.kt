@@ -13,7 +13,7 @@ fun main(){
     //list -mutable - can be changed
     var rivermaya = mutableListOf<String>("bamboo","rico","perf","juan")
     rivermaya.removeAt(0)
-    rivermaya.remove("rico-")
+    rivermaya.remove("rico")
     rivermaya.add("john")
     rivermaya.add(2,"peter")
 
