@@ -1,47 +1,101 @@
 fun main(){
-    var option:Char = 'a'
+
+    var borrowers = mutableMapOf<String, List<Any>>()
+    var books = mutableMapOf<String, List<Any>>()
+
+
     var username:String = "librarian"
-    var userpass:String = "librarian"
-    var borrowers = mutableListOf<List<Any>>()
+    var password:String = "librarian"
+    var isLoggin:Boolean = false
 
-    do {
-        menus()
-        option = readln().first()
+    while(!isLoggin){
+        print("Enter user name: ")
+        var logusername = readln()
+        print("Enter password: ")
+        var logpassword = readln()
 
-        when(option){
-            'a' -> addBorrowers()
-            'b' -> addBooks()
-            'd' -> break
+        if(logusername == username && logpassword == password){
+            isLoggin = true
+        }else {
+            println("Wrong user name and password...")
         }
+    }
 
-        println()
-    } while (option != 'x')
+    if(isLoggin){
+        var option:Char = 'i'
+        do {
+            menus()
+            option = readln().first()
+
+            when(option){
+                'a' -> addBooks(books)
+                'b' -> addBorrowers(borrowers)
+                'c' -> bookslist(books)
+                'd' -> borrowerslist(borrowers)
+            }
+
+            println()
+        } while (option != 'x')
+    }
+
+
 
 }
 
 fun menus(){
-    println("****MENU*****")
+    println("**** MENU *****")
     println("a. books")
-    println("b. barrowers")
-    println("c. barroweds")
-    println("d. exit")
+    println("b. borrowers")
+    println("c. books list")
+    println("d. borrowers list")
+    println("x. Exit")
     print("Enter option: ")
 }
 
-fun addBorrowers(){
-    print("Enter barrower ID: ")
-    var barrowerID = readln()
-    print("Enter barrower name: ")
-    var barrowerName = readln()
+fun addBorrowers(list:MutableMap<String, List<Any>>){
+    var borrowerlist = mutableListOf<String>()
+
+    var borrowerID = ""
+    var borrowerName = ""
+    var borrowerAddress = ""
+    print("Enter borrower ID: ")
+    borrowerID = readln()
+    print("Enter borrower name: ")
+    borrowerName = readln()
+    print("borrowers address: ")
+    borrowerAddress = readln()
+
+    borrowerlist.add(borrowerName)
+    borrowerlist.add(borrowerAddress)
+    list.put(borrowerID, borrowerlist)
 
 }
-fun addBooks(){
-    print("Enter book ID: ")
-    var bookId = readln()
-    print("Enter book Title: ")
-    var bookTitle = readln()
-    //books[bookId] = bookTitle
+
+fun borrowerslist(list:MutableMap<String, List<Any>>){
+    for((key, value) in list){
+        print("$key,  $value")
+    }
 }
+
+fun addBooks(list:MutableMap<String, List<Any>>){
+    var book = mutableListOf<String>()
+    var bookID:String = ""
+    print("Enter book ID: ")
+    bookID = readln()
+    print("Enter book Title: ")
+    book.add(readln())
+    print("Author: ")
+    book.add(readln())
+
+    list.put(bookID, book)
+}
+
+fun bookslist(list:MutableMap<String, List<Any>>){
+    for((key, value) in list){
+        print("$key,  $value")
+    }
+}
+
 
 fun addBorrowed(){
     print("Enter book ID: ")
