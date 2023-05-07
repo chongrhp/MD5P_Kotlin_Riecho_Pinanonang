@@ -1,7 +1,3 @@
-
-var barrowers = mutableMapOf<String, String>()
-var barroweds = mutableMapOf<String, String>()
-var books = mutableMapOf<String,String>()
 fun main(){
     var option:Char = 'a'
 
@@ -34,14 +30,14 @@ fun addBarrowers(){
     var barrowerID = readln()
     print("Enter barrower name: ")
     var barrowerName = readln()
-    barrowers[barrowerID] = barrowerName
+    //barrowers[barrowerID] = barrowerName
 }
 fun addBooks(){
     print("Enter book ID: ")
     var bookId = readln()
     print("Enter book Title: ")
     var bookTitle = readln()
-    books[bookId] = bookTitle
+    //books[bookId] = bookTitle
 }
 
 fun addBarrowed(){
@@ -49,5 +45,5 @@ fun addBarrowed(){
     var bookId = readln()
     print("Enter book Title: ")
     var bookTitle = readln()
-    books[bookId] = bookTitle
+    //books[bookId] = bookTitle
 }
