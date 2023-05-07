@@ -76,7 +76,10 @@ fun itemAdd():MutableList<Any>{
 fun itemList(list:MutableList<List<Any>>){
     var totalAmount = 0.0
     var totalCost = 0.0
+
+    println("-------------------------------------")
     println("barcode\tname\tqty.\tcost\ttotal")
+    println("-------------------------------------")
     for(a in 0.. (list.size-1)){
         for(b in 0..(list[a].size-1)){
             print("${list[a][b]}\t")
