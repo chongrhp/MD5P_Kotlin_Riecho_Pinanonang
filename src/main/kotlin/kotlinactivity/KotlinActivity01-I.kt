@@ -1,12 +1,15 @@
 fun main(){
     var option:Char = 'a'
+    var username:String = "librarian"
+    var userpass:String = "librarian"
+    var borrowers = mutableListOf<List<Any>>()
 
     do {
         menus()
         option = readln().first()
 
         when(option){
-            'a' -> addBarrowers()
+            'a' -> addBorrowers()
             'b' -> addBooks()
             'd' -> break
         }
@@ -23,14 +26,14 @@ fun menus(){
     println("c. barroweds")
     println("d. exit")
     print("Enter option: ")
-
 }
-fun addBarrowers(){
+
+fun addBorrowers(){
     print("Enter barrower ID: ")
     var barrowerID = readln()
     print("Enter barrower name: ")
     var barrowerName = readln()
-    //barrowers[barrowerID] = barrowerName
+
 }
 fun addBooks(){
     print("Enter book ID: ")
@@ -40,10 +43,10 @@ fun addBooks(){
     //books[bookId] = bookTitle
 }
 
-fun addBarrowed(){
+fun addBorrowed(){
     print("Enter book ID: ")
     var bookId = readln()
     print("Enter book Title: ")
     var bookTitle = readln()
-    //books[bookId] = bookTitle
+
 }
