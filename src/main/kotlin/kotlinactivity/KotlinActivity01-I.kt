@@ -36,6 +36,7 @@ fun main(){
                 'd' -> borrowerslist(borrowers)
                 'e' -> borrowerBooks(books,borrowers,borrowbooks)
                 'f' -> bookBorrowersList(books,borrowers,borrowbooks)
+                'g' -> borrowerBooksList(books, borrowers, borrowbooks)
             }
         } while (option != 'x')
     }
@@ -67,7 +68,9 @@ fun menus(){
     print("Enter option: ")
 }
 
-fun bookBorrowersList(book:MutableMap<String, List<Any>>, borrower:MutableMap<String, List<Any>>, trans:MutableList<MutableList<Any>>){
+fun bookBorrowersList(book:MutableMap<String, List<Any>>,
+                      borrower:MutableMap<String, List<Any>>,
+                      trans:MutableList<MutableList<Any>>){
     print("Enter bookID: ")
     var bookID = readln()
 
@@ -75,28 +78,64 @@ fun bookBorrowersList(book:MutableMap<String, List<Any>>, borrower:MutableMap<St
     for ((bokid, booktitle) in book){
         if(bokid == bookID){
             println(booktitle)
-            println(trans)
             break
         }
     }
 
+    println("Boorowers")
     for(i in 0 ..trans.size-1){
         if((trans[i].size -1) > 0) {
             if(trans[i][1] == bookID) {
-                println("${trans[i][0]}, ${trans[i][1]}, ${trans[i][2]}")
+                var j = 0
+                while (i < borrower.size-1){
+
+                }
+
                 for ((bor, value) in borrower) {
-                    if (bor == bookID) {
-                        //print("${trans[i][0]} = $bor")
+                    if (bor == trans[i][2]) {
                         println(value)
                     }
                 }
-                break
             }
-
         }
     }
 
 }
+
+fun borrowerBooksList(book:MutableMap<String, List<Any>>,
+                      borrower:MutableMap<String, List<Any>>,
+                      trans:MutableList<MutableList<Any>>){
+    print("Enter borrowerID: ")
+    var borrowerID = readln()
+
+
+    for ((bar, borrow) in borrower){
+        if(bar == borrowerID){
+            println(borrow)
+            break
+        }
+    }
+
+    println("Books Borrowed")
+    for(i in 0 ..trans.size-1){
+        if((trans[i].size -1) > 0) {
+            if(trans[i][2] == borrowerID) {
+                var j = 0
+                while (i < borrower.size-1){
+
+                }
+
+                for ((bok, value) in book) {
+                    if (bok == trans[i][2]) {
+                        println(value)
+                    }
+                }
+            }
+        }
+    }
+
+}
+
 
 fun findbook(bookID:String,list:MutableMap<String, List<Any>>):Boolean{
     var found:Boolean = false
@@ -108,7 +147,9 @@ fun findbook(bookID:String,list:MutableMap<String, List<Any>>):Boolean{
     }
     return found
 }
-fun borrowerBooks(book:MutableMap<String, List<Any>>, borrower:MutableMap<String, List<Any>>, transaction:MutableList<MutableList<Any>>){
+fun borrowerBooks(book:MutableMap<String, List<Any>>,
+                  borrower:MutableMap<String, List<Any>>,
+                  transaction:MutableList<MutableList<Any>>){
 
     var bookID:String = ""
     var borrowerId:String = ""
