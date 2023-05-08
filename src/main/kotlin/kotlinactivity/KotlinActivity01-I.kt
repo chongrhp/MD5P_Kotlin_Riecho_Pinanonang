@@ -85,7 +85,7 @@ fun bookBorrowersList(book:MutableMap<String, List<Any>>, borrower:MutableMap<St
             if(trans[i][1] == bookID) {
                 println("${trans[i][0]}, ${trans[i][1]}, ${trans[i][2]}")
                 for ((bor, value) in borrower) {
-                    if (trans[i][1] == bor) {
+                    if (bor == bookID) {
                         //print("${trans[i][0]} = $bor")
                         println(value)
                     }
