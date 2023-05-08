@@ -71,25 +71,28 @@ fun bookBorrowersList(book:MutableMap<String, List<Any>>, borrower:MutableMap<St
     print("Enter bookID: ")
     var bookID = readln()
 
-    for((bokid, booktitle) in book){
+
+    for ((bokid, booktitle) in book){
         if(bokid == bookID){
             println(booktitle)
             println(trans)
-            var i = 0
-            while(i < trans.size-1){
-                var a = 0
-                if(trans[i].size-1 > 0) {
-                    if (trans[i][1] == bookID) {
-                        for ((bar, bars) in borrower) {
-                            if (bar == trans[i][1]) {
-                                println("Name: ${bars[0]}, Add: ${bars[1]}")
-                            }
-                        }
+            break
+        }
+    }
+
+    for(i in 0 ..trans.size-1){
+        if((trans[i].size -1) > 0) {
+            if(trans[i][1] == bookID) {
+                println("${trans[i][0]}, ${trans[i][1]}, ${trans[i][2]}")
+                for ((bor, value) in borrower) {
+                    if (trans[i][1] == bor) {
+                        //print("${trans[i][0]} = $bor")
+                        println(value)
                     }
                 }
-                i++
+                break
             }
-            break
+
         }
     }
 
