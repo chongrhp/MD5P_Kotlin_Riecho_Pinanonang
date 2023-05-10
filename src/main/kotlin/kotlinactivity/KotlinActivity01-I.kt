@@ -183,14 +183,16 @@ fun borrowerBooks(book:MutableMap<String, List<Any>>,
     } while(!foundborrower)
 
     if(foundborrower && foundborrower) {
-        print("Enter date: ")
+        print("Date borrow: ")
         var trxDate = readln()
-
+        print("Date return: ")
+        var dateReturn = readln()
 
         trans.add(trxId)
         trans.add(bookID)
         trans.add(borrowerId)
         trans.add(trxDate)
+        trans.add(dateReturn)
         if(trxChild == 0){transaction[0] = trans}
         else {transaction.add(trans)}
     }
@@ -231,6 +233,7 @@ fun addBooks(list:MutableMap<String, List<Any>>){
     book.add(readln())
     print("Author: ")
     book.add(readln())
+
 
     list.put(bookID, book)
 }

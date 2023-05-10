@@ -3,11 +3,11 @@ package kotlinprogram
 fun main(){
 
     print("string 1: ")
-    var myStr1 = readln()
+    val myStr1 = readln()
     print("string 2: ")
-    var myStr2 = readln()
+    val myStr2 = readln()
 
-    var result = unionOfUniqueChars(myStr1,myStr2)
+    val result = unionOfUniqueChars(myStr1,myStr2)
     println("Unique: $result")
 }
 

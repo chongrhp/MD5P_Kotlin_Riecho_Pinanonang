@@ -1,7 +1,7 @@
 import kotlin.system.exitProcess
 
 fun main(){
-    var shoesbrand =  arrayOf<String>("Adidas","Nike","Fila","Levis","Sketchers")
+    val shoesbrand =  arrayOf<String>("Adidas","Nike","Fila","Levis","Sketchers")
 
     //ArrayOf
     println("list of shoes brand using arrayOf:")
@@ -14,7 +14,7 @@ fun main(){
     println()
     //ArrayList
     println("List of students using ArrayList")
-    var students = ArrayList<String>()
+    val students = ArrayList<String>()
     for(i in 1..5){
         print("Enter student name:")
         students.add(readln())
@@ -23,7 +23,7 @@ fun main(){
 
 
     //mutableSetOf
-    var fruits = mutableSetOf<String>("Apple","Orange","Mango")
+    val fruits = mutableSetOf<String>("Apple","Orange","Mango")
     fruits.add("Grapes")
     fruits.remove("Orange")
 
