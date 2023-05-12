@@ -5,32 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbfd3ca-e93c-49de-ae2e-a76ba563f1e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity02-B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity02-C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity02-D.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity03-A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity03-B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity03-C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop1/KotlinOOP1A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop1/KotlinOOP1B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop1/KotlinOOP1C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop2/MobilePhone.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop2/MobilePhoneDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity1_person/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity1_person/ooppracticeactivity1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity2_rectangle/Rectangle.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity2_rectangle/ooppracticeactivity2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity3_book/Book.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity3_book/ooppracticeactivity3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity4_bankaccount/BankAccount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity4_bankaccount/ooppracticeactivity4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity5_student/Student.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity5_student/ooppracticeactivity5.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop3constructor/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop3constructor/PersonDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop4singleton/Singleton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop4singleton/SingletonDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop5data/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop5data/PersonDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop6inner/Outer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop6inner/OuterDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop7nested/Empty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop7nested/Outer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop7nested/OuterDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop8encapsulation/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop8encapsulation/PersonDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity10/BankAccount.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity10/BankAccountDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity11/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity11/PersonDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity12/MathUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity12/MathUtilsDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity13/University.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity13/UniversityDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity6shape/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity6shape/ShapeDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity7person/Person.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity7person/PersonDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity8/Date.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity8/DateDriver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity9/Car.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity9/CarDriver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-D.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-D.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-E.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-E.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-F.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-I.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinactivity/KotlinActivity01-I.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity1_person/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity1_person/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity5_student/ooppracticeactivity5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity5_student/ooppracticeactivity5.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +72,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/KodeGo/Projects/untitled/src/main/kotlin/kotlinoop/kotlinoop1&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -86,37 +93,58 @@
       <recent name="ooppracticeactivities.ooppracticeactivity1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Ooppracticeactivity3Kt">
-    <configuration name="Ooppracticeactivity1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity1_person.Ooppracticeactivity1Kt" />
+  <component name="RunManager" selected="Kotlin.UniversityDriverKt">
+    <configuration name="BankAccountDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity10.BankAccountDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ooppracticeactivity2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity2_rectangle.Ooppracticeactivity2Kt" />
+    <configuration name="CarDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity9.CarDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ooppracticeactivity3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity3_book.Ooppracticeactivity3Kt" />
+    <configuration name="MathUtilsDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity11.MathUtilsDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ooppracticeactivity4Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity4_bankaccount.Ooppracticeactivity4Kt" />
+    <configuration name="OuterDriverKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlinoop.kotlinoop7.OuterDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ooppracticeactivity5Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity5_student.Ooppracticeactivity5Kt" />
+    <configuration name="PersonDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity11.PersonDriverKt" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlinoop.kotlinoop5data.PersonDriverKt" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlinoop.kotlinoop8encapsulation.PersonDriverKt" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniversityDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity13.UniversityDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -124,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Ooppracticeactivity3Kt" />
-        <item itemvalue="Kotlin.Ooppracticeactivity2Kt" />
-        <item itemvalue="Kotlin.Ooppracticeactivity5Kt" />
-        <item itemvalue="Kotlin.Ooppracticeactivity4Kt" />
-        <item itemvalue="Kotlin.Ooppracticeactivity1Kt" />
+        <item itemvalue="Kotlin.UniversityDriverKt" />
+        <item itemvalue="Kotlin.MathUtilsDriverKt" />
+        <item itemvalue="Kotlin.PersonDriverKt" />
+        <item itemvalue="Kotlin.BankAccountDriverKt" />
+        <item itemvalue="Kotlin.CarDriverKt" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +170,9 @@
       <updated>1681212466366</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

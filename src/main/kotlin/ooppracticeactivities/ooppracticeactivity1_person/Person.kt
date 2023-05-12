@@ -8,7 +8,7 @@ class Person {
     //init block initialization
     init{
         name = "Riecho Pinanonang"
-        age = 42
+        age = 12
         email = "chongrhp@gmail.com"
     }
 
