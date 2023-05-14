@@ -1,6 +1,10 @@
 package Exercise.StudentEnrollmentSystem
 
-class Course(var name:String, val maxStudents: Int) {
+class Course(
+    var courseID:String,
+    var name:String,
+    var instructor:String,
+    var maxStudents: Int) {
     private val students = mutableListOf<Student>()
 
     fun addStudent(student: Student){
@@ -18,5 +22,23 @@ class Course(var name:String, val maxStudents: Int) {
 
     fun isFull():Boolean{
         return students.size == maxStudents
+    }
+
+    fun getListOfStudents(){
+        println()
+        println("****************************************\n"+
+                "Course ID: ${this.courseID},\t"+
+                "${this.name},\tInstructor: ${this.instructor}")
+        println("***************************************")
+        println("       LIST OF STUDENTS        ")
+        println("---------------------------------------")
+        for(student in this.students){
+            println("ID: ${student.studentId},\t"+
+            "Name: ${student.name},\t"+
+            "Age: ${student.Age},\t"+
+            "Gender: ${student.gender},\t"+
+            "Contacts: ${student.contacts}")
+        }
+        println("---------------------------------------")
     }
 }
