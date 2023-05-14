@@ -86,9 +86,7 @@ fun searchStudentWildSearch(students:ArrayList<Student>){
     val search = readln()
     var isFound = false
     for(student in students){
-        if(student.firstName.uppercase().contains(search.uppercase()) ||
-            student.middleName.uppercase().contains(search.uppercase()) ||
-            student.lastName.uppercase().contains(search.uppercase()))
+        if(student.lastName.uppercase().contains(search.uppercase()))
             {
                 print("Student Name: ${student.firstName} " +
                         "${student.middleName.first()}. " +
