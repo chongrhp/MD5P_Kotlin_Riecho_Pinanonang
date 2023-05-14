@@ -16,7 +16,7 @@ class Student(var studentId: Int,
         } else {
             course.addStudent(this)
             courses.add(course)
-            println("$name enrolled in this ${course.name} course successfully.")
+            println("$name enrolled in ${course.name} course successfully.")
         }
     }
 
