@@ -24,6 +24,9 @@ class Course(
         return students.size == maxStudents
     }
 
+    fun studentsEnrolled():Int{
+        return this.students.size
+    }
     fun getListOfStudents(){
         println()
         println("****************************************\n"+

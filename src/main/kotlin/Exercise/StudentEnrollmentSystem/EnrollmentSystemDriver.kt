@@ -10,25 +10,21 @@ fun main(){
     do {
         menuOption()
         option = readln().first()
-
         when(option){
             'a' -> newStudents(students)
             'b' -> newCourses(courses)
             'c' -> listOfStudents(students)
             'd' -> listOfCourses(courses)
             'e' -> enrollStudent(students,courses)
-            'f' -> findStudent(findId(),students)
-            'g' -> findCourse(findId(),courses)
+            'f' -> withdrawStudentFromCourse(students,courses)
+            'g' -> findStudent(findId("student"),students)
+            'h' -> findCourse(findId("course"),courses)
         }
-
-
     } while (option != 'x')
-
-
 }
 
-fun findId():String{
-    print("Enter ID: ")
+fun findId(msg:String):String{
+    print("Enter $msg ID: ")
     var id = readln()
     return id
 }
@@ -40,11 +36,36 @@ fun menuOption(){
     println("[b] New Courses")
     println("[c] List of Students")
     println("[d] List of Courses")
-    println("[e] enroll student in a course")
-    println("[f] List of Courses student enrolled")
-    println("[g] List of Students under courses")
+    println("[e] Enroll student in a course")
+    println("[f] Withdraw a student in a course")
+    println("[g] List of Courses student enrolled")
+    println("[h] List of Students under courses")
     println("[x] Exit Menu")
     print("Please enter you option: ")
+}
+
+fun withdrawStudentFromCourse(
+    list:ArrayList<Student>,
+    courseList: ArrayList<Course>){
+
+    println()
+    print("Enter student ID: ")
+    var studID = readln().toInt()
+    print("Enter Course ID: ")
+    var courseID = readln()
+
+    for(student in list){
+        if(student.studentId == studID){
+            for(course in courseList){
+                if(course.courseID == courseID){
+                    student.drop(course)
+                    println("${student.name} was drop to ${course.name} course.")
+                }
+                break
+            }
+            break
+        }
+    }
 }
 
 fun enrollStudent(
@@ -62,8 +83,9 @@ fun enrollStudent(
             for (course in courseList){
                 if(course.courseID == courseID){
                     stud.enroll(course)
+                    break
                 }
-                break
+
             }
             break
         }
@@ -104,7 +126,8 @@ fun listOfCourses(list:ArrayList<Course>){
         println("Course ID: ${course.courseID},\t"+
                 "Course ${course.name},\t"+
         "Instructor:${course.instructor},\t"+
-        "max students: ${course.maxStudents}")
+        "max students: ${course.maxStudents}"+
+        "enrolled: ${course.studentsEnrolled()}")
     }
 }
 
