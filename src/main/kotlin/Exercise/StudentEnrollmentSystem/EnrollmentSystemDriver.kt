@@ -60,8 +60,8 @@ fun withdrawStudentFromCourse(
                 if(course.courseID == courseID){
                     student.drop(course)
                     println("${student.name} was drop to ${course.name} course.")
+                    break
                 }
-                break
             }
             break
         }
