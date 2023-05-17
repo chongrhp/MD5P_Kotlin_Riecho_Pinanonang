@@ -2,8 +2,10 @@ package ooppracticeactivities.ooppracticeactivity14
 
 class Teacher(var subject:String):Employee() {
     override fun displayInfo(){
+        this.role = "Teacher"
+        println("===== TEACHER CLASS ======")
         super.displayInfo()
-        println("My role is to teach the $subject subject")
+        println("Description: Teaching subject $subject")
         println()
     }
 }
