@@ -1,4 +1,4 @@
-package ooppracticeactivities.ooppracticeactivity14
+package ooppracticeactivities.ooppracticeactivity14overrideandoverload
 
 fun main(){
     var teacher = Teacher("Mathematics")

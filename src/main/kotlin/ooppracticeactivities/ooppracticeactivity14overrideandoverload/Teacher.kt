@@ -1,4 +1,4 @@
-package ooppracticeactivities.ooppracticeactivity14
+package ooppracticeactivities.ooppracticeactivity14overrideandoverload
 
 class Teacher(var subject:String):Employee() {
     override fun displayInfo(){

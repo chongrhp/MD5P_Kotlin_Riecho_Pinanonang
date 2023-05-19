@@ -1,4 +1,4 @@
-package ooppracticeactivities.ooppracticeactivity14
+package ooppracticeactivities.ooppracticeactivity14overrideandoverload
 
 class Administrator(var department:String):Employee() {
     override fun displayInfo(){
