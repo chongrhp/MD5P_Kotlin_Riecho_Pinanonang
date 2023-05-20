@@ -1,6 +1,4 @@
-package Exercise.StudentEnrollmentSystem
-
-import ooppracticeactivities.ooppracticeactivity13university.University
+package casestudy.StudentEnrollmentSystem
 
 fun main(){
     var students = ArrayList<Student>()

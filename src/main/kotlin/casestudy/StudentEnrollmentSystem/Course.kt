@@ -1,4 +1,4 @@
-package Exercise.StudentEnrollmentSystem
+package casestudy.StudentEnrollmentSystem
 
 class Course(
     var courseID:String,

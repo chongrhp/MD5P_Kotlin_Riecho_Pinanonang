@@ -1,4 +1,4 @@
-package Exercise.StudentEnrollmentSystem
+package casestudy.StudentEnrollmentSystem
 
 class Student(var studentId: Int,
     var name: String,

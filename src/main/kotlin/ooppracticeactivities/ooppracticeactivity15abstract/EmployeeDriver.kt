@@ -5,7 +5,7 @@ fun main(){
      val employeeParTime = PartTimeEmployee("Maria Dela Cruz",25)
     println()
     println("----- FULL TIME EMPLOYEE -----")
-    println("EmployeeName:  ${employeeFullTime.getName()}")
+    println("Employee Name:  ${employeeFullTime.getName()}")
     println("Per day:  ${String.format("%.2f",employeeFullTime.getSalary())}")
     println("Number of days:  ${employeeFullTime.days}")
     println("Total monthly earnings:  ${String.format("%,.2f",employeeFullTime.calculateEarnings())}")
