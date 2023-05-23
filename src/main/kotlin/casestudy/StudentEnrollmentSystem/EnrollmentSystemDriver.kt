@@ -1,8 +1,8 @@
 package casestudy.StudentEnrollmentSystem
 
 fun main(){
-    var students = ArrayList<Student>()
-    var courses = ArrayList<Course>()
+    var students = mutableListOf<Student>()
+    var courses = mutableListOf<Course>()
 
     var option = 'i'
     do {
@@ -43,8 +43,8 @@ fun menuOption(){
 }
 
 fun withdrawStudentFromCourse(
-    list:ArrayList<Student>,
-    courseList: ArrayList<Course>){
+    list:MutableList<Student>,
+    courseList: MutableList<Course>){
 
     println()
     print("Enter student ID: ")
@@ -67,8 +67,8 @@ fun withdrawStudentFromCourse(
 }
 
 fun enrollStudent(
-    studList:ArrayList<Student>,
-    courseList:ArrayList<Course>){
+    studList:MutableList<Student>,
+    courseList:MutableList<Course>){
 
     println()
     println("Enroll student in a course")
@@ -90,7 +90,7 @@ fun enrollStudent(
     }
 }
 
-fun findStudent(search:String, list:ArrayList<Student>){
+fun findStudent(search:String, list:MutableList<Student>){
     for(student in list){
         if(student.studentId == search.toInt()){
             student.getListCourses()
@@ -99,7 +99,7 @@ fun findStudent(search:String, list:ArrayList<Student>){
     }
 }
 
-fun findCourse(search:String, list:ArrayList<Course>){
+fun findCourse(search:String, list:MutableList<Course>){
     for(course in list){
         if(course.courseID == search){
             course.getListOfStudents()
@@ -108,7 +108,7 @@ fun findCourse(search:String, list:ArrayList<Course>){
     }
 }
 
-fun listOfStudents(list:ArrayList<Student>){
+fun listOfStudents(list:MutableList<Student>){
     println()
     println("**** List of students ****")
     for(student in list){
@@ -118,7 +118,7 @@ fun listOfStudents(list:ArrayList<Student>){
     }
 }
 
-fun listOfCourses(list:ArrayList<Course>){
+fun listOfCourses(list:MutableList<Course>){
     println("**** List of Courses ****")
     for(course in list){
         println("Course ID: ${course.courseID},\t"+
@@ -129,7 +129,7 @@ fun listOfCourses(list:ArrayList<Course>){
     }
 }
 
-fun newStudents(list:ArrayList<Student>){
+fun newStudents(list:MutableList<Student>){
     println()
     var studID:Int = 0
     var name:String = ""
@@ -161,7 +161,7 @@ fun newStudents(list:ArrayList<Student>){
     }
 }
 
-fun newCourses(list:ArrayList<Course>){
+fun newCourses(list:MutableList<Course>){
     var courseID:String = ""
     var name:String = ""
     var instructor:String = ""

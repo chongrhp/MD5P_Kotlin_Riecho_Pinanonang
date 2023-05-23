@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cbfd3ca-e93c-49de-ae2e-a76ba563f1e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop3constructor/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop3constructor/PersonDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop4singleton/Singleton.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop4singleton/SingletonDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop5data/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop5data/PersonDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop6inner/Outer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop6inner/OuterDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop7nested/Empty.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop7nested/Outer.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop7nested/OuterDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop8encapsulation/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/kotlinoop/kotlinoop8encapsulation/PersonDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity10/BankAccount.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity10/BankAccountDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity11/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity11/PersonDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity12/MathUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity12/MathUtilsDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity13/University.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity13/UniversityDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity6shape/Shape.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity6shape/ShapeDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity7person/Person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity7person/PersonDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity8/Date.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity8/DateDriver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity9/Car.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity9/CarDriver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity1_person/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity1_person/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity5_student/ooppracticeactivity5.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ooppracticeactivities/ooppracticeactivity5_student/ooppracticeactivity5.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/casestudy/StudentEnrollmentSystem/EnrollmentSystemDriver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/casestudy/StudentEnrollmentSystem/EnrollmentSystemDriver.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -75,9 +46,9 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/KodeGo/Projects/untitled/src/main/kotlin/kotlinoop/kotlinoop1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3091954&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
 }</component>
@@ -93,58 +64,37 @@
       <recent name="ooppracticeactivities.ooppracticeactivity1" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.UniversityDriverKt">
-    <configuration name="BankAccountDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity10.BankAccountDriverKt" />
+  <component name="RunManager" selected="Kotlin.EnrollmentSystemDriverKt">
+    <configuration name="DriverkKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="casestudy.casestudyoop2.DriverkKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity9.CarDriverKt" />
+    <configuration name="ElectronicDeviceDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity17.ElectronicDeviceDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathUtilsDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity11.MathUtilsDriverKt" />
+    <configuration name="EnrollmentSystemDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="casestudy.StudentEnrollmentSystem.EnrollmentSystemDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterDriverKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kotlinoop.kotlinoop7.OuterDriverKt" />
+    <configuration name="KotlinActivity04_A_Class_StudentKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kotlinactivity.KotlinActivity04_A_Class_StudentKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity11.PersonDriverKt" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kotlinoop.kotlinoop5data.PersonDriverKt" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kotlinoop.kotlinoop8encapsulation.PersonDriverKt" />
-      <module name="untitled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniversityDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity13.UniversityDriverKt" />
+    <configuration name="ShapeDriverKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ooppracticeactivities.ooppracticeactivity18.ShapeDriverKt" />
       <module name="untitled" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.UniversityDriverKt" />
-        <item itemvalue="Kotlin.MathUtilsDriverKt" />
-        <item itemvalue="Kotlin.PersonDriverKt" />
-        <item itemvalue="Kotlin.BankAccountDriverKt" />
-        <item itemvalue="Kotlin.CarDriverKt" />
+        <item itemvalue="Kotlin.EnrollmentSystemDriverKt" />
+        <item itemvalue="Kotlin.KotlinActivity04_A_Class_StudentKt" />
+        <item itemvalue="Kotlin.DriverkKt" />
+        <item itemvalue="Kotlin.ShapeDriverKt" />
+        <item itemvalue="Kotlin.ElectronicDeviceDriverKt" />
       </list>
     </recent_temporary>
   </component>
